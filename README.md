@@ -1,5 +1,10 @@
 # PythonSharedModules
 
+To Run the Module Locally in VSCode set the PYTHONPATH to the absoulte path of the folder
+````
+export PYTHONPATH="${PYTHONPATH}:/<absolute_path>/PythonSharedModules"
+````
+
 To Build First Module
 ```commandline
 docker build -f FirstModule/Dockerfile -t firstmodules .
